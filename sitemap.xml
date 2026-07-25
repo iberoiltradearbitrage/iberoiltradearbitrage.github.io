@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://iberoiltradearbitrage.github.io/</loc>
+    <loc>https://iberoiltradearbitrage.com/</loc>
     <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://iberoiltradearbitrage.github.io/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://iberoiltradearbitrage.github.io/es.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iberoiltradearbitrage.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://iberoiltradearbitrage.com/es.html"/>
   </url>
   <url>
-    <loc>https://iberoiltradearbitrage.github.io/es.html</loc>
+    <loc>https://iberoiltradearbitrage.com/es.html</loc>
     <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://iberoiltradearbitrage.github.io/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://iberoiltradearbitrage.github.io/es.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iberoiltradearbitrage.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://iberoiltradearbitrage.com/es.html"/>
   </url>
 </urlset>
