@@ -28,12 +28,32 @@ enable Pages on the default branch, root folder. To use a custom domain, add a
 `CNAME` file at the repository root containing the domain, and point the domain's
 DNS to the hosting provider.
 
-## Before going live
+## Custom domain
 
-- [ ] Replace the photography with licensed, full-resolution files
+The site is intended to be served from **iberoiltradearbitrage.com**. To connect it:
+
+1. Add a `CNAME` file at the repository root containing `iberoiltradearbitrage.com`.
+2. At the domain registrar, **add** these records — do not replace the existing
+   ones, and in particular leave the `MX` records untouched, as company email runs
+   on that domain:
+
+   ```
+   A     @    185.199.108.153
+   A     @    185.199.109.153
+   A     @    185.199.110.153
+   A     @    185.199.111.153
+   CNAME www  rinconcd67.github.io
+   ```
+
+3. In the repository settings, under Pages, set the custom domain and enable
+   "Enforce HTTPS" once the certificate has been issued.
+
+## Status
+
+- [x] Photography licensed (Adobe Stock — see `assets/CREDITS.md`)
+- [x] Registered company name, address and tax identification number confirmed
 - [ ] Replace the logo with a transparent PNG or SVG
-- [ ] Confirm the registered company name and tax identification number
-- [ ] Confirm the contact address and the domain the site will be served from
+- [ ] Point the custom domain (see above)
 - [ ] Connect the enquiry form to a mail handler (currently it shows a message
       directing the visitor to the published email address)
 
