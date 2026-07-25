@@ -625,6 +625,54 @@ h3 {
   font-size: 13.5px;
 }
 
+/* ---------- presence in the market ---------- */
+
+.presence {
+  background: var(--paper);
+}
+
+.presence-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 42px;
+}
+
+.presence-grid figure {
+  margin: 0;
+}
+
+.presence-grid figure.wide {
+  grid-column: span 2;
+}
+
+.presence-grid img {
+  aspect-ratio: 3 / 2;
+  border: 1px solid var(--line);
+  object-fit: cover;
+  width: 100%;
+}
+
+.presence-grid img.focus-upper {
+  object-position: center 32%;
+}
+
+.presence-grid figcaption {
+  color: var(--muted);
+  font-size: 12.5px;
+  line-height: 1.45;
+  margin-top: 9px;
+}
+
+.presence-note {
+  border-left: 3px solid var(--amber-500);
+  color: var(--muted);
+  font-size: 14.5px;
+  margin-top: 34px;
+  max-width: 82ch;
+  padding-left: 16px;
+}
+
 /* ---------- governance (restrained) ---------- */
 
 .governance {
@@ -846,8 +894,13 @@ textarea:focus {
   .product-grid,
   .process-rail,
   .philosophy-grid,
-  .values {
+  .values,
+  .presence-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .presence-grid figure.wide {
+    grid-column: span 2;
   }
 
   .scope {
@@ -904,8 +957,13 @@ textarea:focus {
   .values,
   .people-facts,
   .governance-items,
+  .presence-grid,
   .form {
     grid-template-columns: 1fr;
+  }
+
+  .presence-grid figure.wide {
+    grid-column: auto;
   }
 
   .header-cta {
