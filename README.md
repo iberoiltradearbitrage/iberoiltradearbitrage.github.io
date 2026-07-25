@@ -42,7 +42,7 @@ The site is intended to be served from **iberoiltradearbitrage.com**. To connect
    A     @    185.199.109.153
    A     @    185.199.110.153
    A     @    185.199.111.153
-   CNAME www  rinconcd67.github.io
+   CNAME www  iberoiltradearbitrage.github.io
    ```
 
 3. In the repository settings, under Pages, set the custom domain and enable

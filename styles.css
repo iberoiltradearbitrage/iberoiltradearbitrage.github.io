@@ -1,9 +1,8 @@
-/* IBER OIL TRADE ARBITRAGE S.L. — public website, draft v3 (bilingual, photographic)
-   Visual language: RINCONCD67 v6 editorial system — warm paper, serif display,
-   uppercase section labels, numbered cards, dark contrast bands.
-   Palette re-tokenised to the IBER mark: amber flame, crimson wordmark, charcoal.
-   Content architecture: three business lines first, products signposted,
-   organisational philosophy and people. Compliance is a restrained block, not the story. */
+/* IBER OIL TRADE ARBITRAGE S.L. — public website
+   Bilingual (EN/ES), static, self-contained. One stylesheet for both pages.
+   Editorial system: warm paper ground, serif display, uppercase section labels,
+   numbered cards and dark contrast bands.
+   Palette taken from the company mark: amber flame, crimson wordmark, charcoal. */
 
 :root {
   --ink-950: #14100f;
