@@ -131,9 +131,9 @@ h3 {
 }
 
 .brand img {
-  height: 40px;
+  height: 46px;
   object-fit: contain;
-  width: 84px;
+  width: auto;
 }
 
 .brand span {
@@ -909,10 +909,10 @@ textarea:focus {
 
 .footer-top img {
   background: var(--white);
-  height: 46px;
+  height: 62px;
   object-fit: contain;
-  padding: 4px;
-  width: 100px;
+  padding: 8px 12px;
+  width: auto;
 }
 
 .footer-top nav {
