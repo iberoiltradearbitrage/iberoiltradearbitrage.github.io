@@ -33,9 +33,18 @@ DNS to the hosting provider.
 The site is intended to be served from **iberoiltradearbitrage.com**. To connect it:
 
 1. Add a `CNAME` file at the repository root containing `iberoiltradearbitrage.com`.
-2. At the domain registrar, **add** these records — do not replace the existing
-   ones, and in particular leave the `MX` records untouched, as company email runs
-   on that domain:
+2. At the DNS host, the web records must be **replaced** — the domain currently
+   resolves to a placeholder site, so the existing `A` and `www CNAME` records
+   have to go. The mail records must be **left exactly as they are**.
+
+   Remove:
+
+   ```
+   A     @    (any address that is not one of the four below)
+   CNAME www  (any target that is not the one below)
+   ```
+
+   Add:
 
    ```
    A     @    185.199.108.153
@@ -44,6 +53,9 @@ The site is intended to be served from **iberoiltradearbitrage.com**. To connect
    A     @    185.199.111.153
    CNAME www  iberoiltradearbitrage.github.io
    ```
+
+   Do not touch, under any circumstance: the `MX` record, the `TXT` SPF record,
+   or the `google._domainkey` DKIM record. Company email depends on all three.
 
 3. In the repository settings, under Pages, set the custom domain and enable
    "Enforce HTTPS" once the certificate has been issued.
