@@ -14,14 +14,14 @@ const TEXT = {
   en: {
     sending: "Sending…",
     sent: "Thank you. Your enquiry has been sent — we will reply to the address you provided.",
-    failed: "The message could not be sent. Please write to stevensales@iberoiltradearbitrage.com.",
-    inert: "Thank you. Please write to stevensales@iberoiltradearbitrage.com while the form is being connected.",
+    failed: "The message could not be sent. Please write to info@iberoiltradearbitrage.com.",
+    inert: "Thank you. Please write to info@iberoiltradearbitrage.com while the form is being connected.",
   },
   es: {
     sending: "Enviando…",
     sent: "Gracias. Su consulta ha sido enviada — le responderemos a la dirección indicada.",
-    failed: "No se pudo enviar el mensaje. Escríbanos a stevensales@iberoiltradearbitrage.com.",
-    inert: "Gracias. Escríbanos a stevensales@iberoiltradearbitrage.com mientras se conecta el formulario.",
+    failed: "No se pudo enviar el mensaje. Escríbanos a info@iberoiltradearbitrage.com.",
+    inert: "Gracias. Escríbanos a info@iberoiltradearbitrage.com mientras se conecta el formulario.",
   },
 };
 
