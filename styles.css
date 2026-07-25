@@ -843,6 +843,15 @@ label.full {
   grid-column: 1 / -1;
 }
 
+/* Bot trap — off-screen, never shown to a visitor, never focusable. */
+.hp {
+  height: 0;
+  left: -9999px;
+  overflow: hidden;
+  position: absolute;
+  width: 0;
+}
+
 input,
 textarea {
   background: var(--white);

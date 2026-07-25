@@ -519,7 +519,12 @@
               Mensaje
               <textarea name="message" rows="4"></textarea>
             </label>
-            <button type="submit">Enviar consulta</button>
+            <label class="hp" aria-hidden="true">
+            Sitio web de la empresa
+            <input type="text" name="company_website" tabindex="-1" autocomplete="off" />
+          </label>
+          <input type="hidden" name="lang" value="es" />
+          <button type="submit">Enviar consulta</button>
             <p class="form-note" role="status" aria-live="polite"></p>
           </form>
         </div>

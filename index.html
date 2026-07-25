@@ -513,7 +513,12 @@
               Message
               <textarea name="message" rows="4"></textarea>
             </label>
-            <button type="submit">Send enquiry</button>
+            <label class="hp" aria-hidden="true">
+            Company website
+            <input type="text" name="company_website" tabindex="-1" autocomplete="off" />
+          </label>
+          <input type="hidden" name="lang" value="en" />
+          <button type="submit">Send enquiry</button>
             <p class="form-note" role="status" aria-live="polite"></p>
           </form>
         </div>
